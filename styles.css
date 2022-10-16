@@ -13,6 +13,8 @@
   font-style: normal;
 }
 
+
+
 @media screen and (min-width:320px){
   .tablet, .desktop{
     display: none;

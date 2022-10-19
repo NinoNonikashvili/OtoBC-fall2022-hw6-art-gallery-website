@@ -130,10 +130,7 @@ footer{
 .footer-icons > img{
   filter:invert(1);
 }
-.footer-icons > img:hover{
-  filter: invert(1);
-  background-color: white;
-}
+
 
 }
 

@@ -11,6 +11,7 @@
 *{
   font-family: bigShouldersDisplay;
   font-style: normal;
+  text-decoration: none;
 }
 
 
@@ -57,9 +58,13 @@
     height:72px;
     display: flex;
     margin: 32px 0 0;
+    background-image: linear-gradient(90deg, #D5966C 204px, #151515 0);
+  }
+  .main-btn-wrapper:hover{
+    background-image: linear-gradient(90deg, #151515 204px, #D5966C 0);
   }
   .btn-text{
-    background-color: #151515;
+    background-color: transparent;
     width:204px;
     text-align: center;
     font-weight: 800;
@@ -72,7 +77,6 @@
   }
   .btn-icon-wrapper{
     width:56px;
-    background-color: #D5966C;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,6 +145,9 @@ footer{
   width:100px;
   justify-content: space-between;
 
+}
+.footer-icons >*:hover{
+  filter: invert(16%) sepia(81%) saturate(4385%) hue-rotate(303deg) brightness(87%) contrast(92%);
 }
 
 }

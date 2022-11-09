@@ -27,7 +27,7 @@
         align="top"
       />
       <img
-        src=https:"https://user-images.githubusercontent.com/61002720/200712543-f65bdfef-954e-4c03-89eb-9ffa5ea7fce6.png"
+        src="https://user-images.githubusercontent.com/61002720/200712543-f65bdfef-954e-4c03-89eb-9ffa5ea7fce6.png"
         width="30%"
         align="top"
       />

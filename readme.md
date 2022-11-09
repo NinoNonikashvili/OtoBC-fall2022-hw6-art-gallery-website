@@ -11,7 +11,7 @@
 ## Overview
 - this project displays a two-page website with a modern design. the structure and design changes and is well adjusted to different viewport sizes.
 
-### Screenshot
+### Screenshots for desktop, tablet and mobile sizes
 
 <div width="100%">
       <img
@@ -54,11 +54,11 @@
 
 - practised creating custom designs using css tricks.
 ###### html
-"`<div class="main-text">
+```<div class="main-text">
         <h1 class="main-header">MODERN <br/>ART GALLERY</h1>
-        <div class="main-without-header"> `"
+        <div class="main-without-header"> ```
 ###### css
-"`  main{
+```  main{
     background-image:linear-gradient(90deg, black 50%, white 0%);
   }
   .main-header{
@@ -69,7 +69,7 @@
     background-clip: text;
     -webkit-background-clip: text;
 
-  } `"
+  } ```
   the code above creates a design of the heading just below the header which is shown on the screenshot of a desktop version. it changes the color of the heading 
   (modern art gallery) from white to black and vice versa, based on the background color of their position. if the letter moves from black background to white background, 
   its color changes from white to black.
